@@ -5,7 +5,7 @@ import "./bootstrap.min.css";
 
 class AuthorQuiz extends Component {
   render() {
-    return <div>AuthorQuiz</div>;
+    return <div> AuthorQuiz </div>;
   }
 }
 
