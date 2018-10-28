@@ -4,9 +4,11 @@ import "./bootstrap.min.css";
 
 function Hero() {
   return (
-    <div className="jumbotron col-10 offset-1">
-      <h1>Author Quiz</h1>
-      <p>Select the book written by the author shown</p>
+    <div className="row">
+      <div className="jumbotron col-10 offset-1">
+        <h1>Author Quiz</h1>
+        <p>Select the book written by the author shown</p>
+      </div>
     </div>
   );
 }
@@ -44,17 +46,17 @@ function Footer() {
       <div className="col-12">
         <p className="text-muted credit">
           All images are from{" "}
-          <a href="https://commons.wikimedia.org/wiki/Main_Page">
-            Wikimedia Commons
+          <a href="http://commons.wikimedia.org/wiki/Main_Page">
+            Wikemedia Commons
           </a>{" "}
-          and are in the public domain.
+          and are in the public domain
         </p>
       </div>
     </div>
   );
 }
 
-function AuthorQuiz(turnData) {
+function AuthorQuiz({ turnData }) {
   return (
     <div className="container-fluid">
       <Hero />
